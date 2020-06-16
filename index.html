@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- This is a comment -->
+
+<head>
+	<title>My First HTML</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+	<a href="#firstList"> Jump to First List</a>
+	<br>
+	<a href="#secondList"> Jump to Second List</a>
+
+	<h1>
+		Farhad's HTML Page
+	</h1>
+
+	<h2>Spelunky</h2>
+
+	<div class="spelunkyCenter">
+		<img src="giantIdol.jpg" alt="spelunky" width="348" height="256" />
+	</div>
+
+	<h2 title="Hidden">Spelunky</h2>
+
+	<div class="spelunkyCenter">
+		<a href="http://spelunkyworld.com">
+			<img src="giantIdol.jpg" alt="spelunky" width="348" height="256" />
+		</a>
+	</div>
+
+	<h2 class="green"> Button with an image </h2>
+
+	<p class="spelunkyText"> Spelunky is
+		<del> good </del> amazing! </p>
+
+	<div class="spelunkyCenter">
+		<button class="spelunkyButton">
+			<a href="http://spelunkyworld.com">
+				<img src="giantIdol.jpg" alt="spelunky" width="174" height="128" />
+			</a>
+		</button>
+	</div>
+
+	<h2 class="purple"> Ordered list of games</h2>
+
+	<iframe class="spelunkyIframe" src="https://www.spelunkyworld.com/"></iframe>
+
+	<p id="firstList"> First List</p>
+
+	<ul>
+		<li>Spelunky</li>
+		<li>Super Meat Boy</li>
+		<li>Binding Of Isaac</li>
+	</ul>
+
+	<p id="secondList"> Second List</p>
+
+	<div class="spelunkyCenter">
+		<button onclick="hideList()"> Toggle list</button>
+	</div>
+
+	<ul class="secondList1">
+		<li class="item1">
+			<abbr title="Spelunky">'Lunky</abbr>
+		</li>
+		<li class="item2">Super Meat Boy</li>
+		<li class="item3">Binding Of Isaac</li>
+	</ul>
+
+	<h2>Games Table</h2>
+
+	<table>
+		<tr>
+			<th>Game</th>
+			<th>Platform</th>
+			<th>Rating</th>
+		</tr>
+		<tr>
+			<td>Spelunky</td>
+			<td>PS4</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Super Meat Boy</td>
+			<td>PC</td>
+			<td>87</td>
+		</tr>
+		<tr>
+			<td>Binding Of Isaac</td>
+			<td>Switch</td>
+			<td>86</td>
+		</tr>
+	</table>
+
+	<script>
+		function hideList() {
+			var x = document.getElementsByClassName("secondList1");
+
+			if (x[0].style.display === 'none') {
+				x[0].style.display = "block";
+			} else {
+				x[0].style.display = "none";
+			}
+		}
+
+
+	</script>
+
+</body>
+
+</html>

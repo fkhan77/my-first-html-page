@@ -1,0 +1,81 @@
+body {
+			background-color: powderblue;
+		}
+
+		h1 {
+			color: blue;
+			font-size: 40px;
+			text-align: center;
+		}
+
+		h2 {
+			color: red;
+			text-align: center;
+		}
+
+		h2.green {
+			color: green;
+		}
+
+		h2.purple {
+			color: purple;
+		}
+
+		ul {
+			background-color: Grey;
+			color: orange;
+			text-align: center;
+		}
+
+		ul.secondList1 .item1 {
+			color: blue;
+		}
+
+		ul.secondList1 .item2 {
+			color: green;
+		}
+
+		ul.secondList1 .item3 {
+			color: red;
+		}
+
+		div.spelunkyCenter {
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+			font-weight: bold;
+			color: #992299;
+			text-decoration: underline;
+		}
+
+		p.spelunkyText {
+			color: blue;
+		}
+
+		button.spelunkyButton {
+			background-color: Red;
+			border: 2px solid Green;
+		}
+
+
+		table {
+			margin-left: auto;
+			margin-right: auto;
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+
+		td,
+		th {
+			border: 2px solid black;
+			color: green;
+			text-align: center;
+		}
+
+		.spelunkyIframe {
+			height: 400px;
+			width: 100%;
+			border: none;
+		}
